@@ -1,6 +1,7 @@
 import React from "react";
 import Card from "../UI/Card";
 import classes from './AddUser.module.css'
+import Button from "../UI/Button";
 
 const AddUser = props => {
   const addUserHandler = event => {
@@ -14,7 +15,7 @@ const AddUser = props => {
         <input type="text" id="username" />
         <label htmlFor="age">Age (Years)</label>
         <input type="number" id="age" />
-        <button type="submit">Add User</button>
+        <Button type='text'>Add User</Button>
       </form>
     </Card>
   );
